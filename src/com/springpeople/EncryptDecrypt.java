@@ -5,6 +5,6 @@ public class EncryptDecrypt {
 		return password+"*";
 	}
 	public static String Decrypt(String password){
-		return password.substring(0, password.length()-1);
+		return password.substring(0, password.length()-2);
 	}
 }
